@@ -22,4 +22,37 @@
 
 .navegacao a:hover{
     color: yellow;
+    transition: all .4s;
+}
+
+.produtos{
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.produtos li{
+    padding: 25px 0;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 30%;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }

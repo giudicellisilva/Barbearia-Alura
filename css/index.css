@@ -4,8 +4,12 @@ body{
 }
 
 .titulo-principal{
+    margin: 20px 0;
     padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
+
 #banner{
      width:100%;
 }
