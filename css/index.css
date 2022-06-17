@@ -17,20 +17,31 @@ body{
 .principal{
     background: #cccccc;
     padding: 30px;
+    line-height: 2.5em;
 }
 
 .titulo-centralizado{
     text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 p{
     text-align: center;
+    font-size: 18px;
 }
 
 #missao{
     font-size: 20px;
 }
 
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
 em strong{
     color: rgb(127, 45, 209);
 }
@@ -40,15 +51,21 @@ em strong{
     padding: 20px;
 }
 
-.itens{
-    font-style: italic;
+.beneficios .titulo-centralizado{
+    margin-bottom: 20px;
 }
 
-ul{
+.itens{
+    font-style: italic;
+    padding: 4px;
+}
+
+.benefios_ul{
     display: inline-block;
     vertical-align: top;
+    list-style-type: disc;
     width: 20%;
-    margin-right: 15%;
+    margin:0 12% 0 25px;
 
 }
 .img-beneficios{
