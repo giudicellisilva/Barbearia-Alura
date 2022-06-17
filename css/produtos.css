@@ -21,8 +21,14 @@
 }
 
 .navegacao a:hover{
-    color: yellow;
+    color: #C78C19;
+    text-decoration: underline;
     transition: all .4s;
+}
+
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .produtos{
@@ -31,14 +37,26 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .produtos li{
     padding: 25px 0;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 30%;
+}
+
+.produtos li:hover{
+    border-color: #C78c19;
+}
+
+.produtos li:active{
+    border-color: #088C19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
 }
 .produtos h2{
     font-size: 30px;
@@ -55,4 +73,16 @@
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.footer{
+    background-image: url("../banner/img-produtos/bg.jpg");
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer .copyright{
+    color: #CCCCCC;
+    font-size: 13px;
+    margin-top: 20px;
 }
