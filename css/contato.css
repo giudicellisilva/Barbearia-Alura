@@ -20,3 +20,40 @@
 .form .checkbox{
     margin: 20px 0;
 }
+
+.enviar{
+    background: orange;
+    margin-left: 60px;
+    width: 40%;
+    padding: 15px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    transition: all 1s;
+    transform: scale(1.1);
+    
+}
+
+.table{
+    margin: 0 0 40px 120px;
+} 
+
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px
+
+}
