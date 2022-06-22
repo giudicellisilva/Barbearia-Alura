@@ -57,3 +57,17 @@ td, th{
     padding: 8px 15px
 
 }
+
+@media screen and (max-width: 480px){
+    .form{
+        text-align: center;
+    }
+
+    .form input, .form textArea{
+        margin: 0 auto;
+    }
+
+    .table{
+        margin: 25px auto;
+    }
+}
